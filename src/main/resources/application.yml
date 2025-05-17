@@ -4,9 +4,8 @@ server:
 spring:
   cloud:
     config:
-      uri: http://localhost:8888
       server:
         git:
-          uri: file:///${user.dir}/src/main/resources/config-repo/
-          search-paths: .
+          uri: https://github.com/Saget-a/config-repo
           default-label: main
+          clone-on-start: true
