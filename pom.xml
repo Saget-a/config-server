@@ -5,7 +5,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>config-server</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>config-server</name>
@@ -57,7 +57,7 @@
                     <configuration>
                     <archive>
                     <manifest>
-                        <mainClass>com.example.configserver.ConfigServerApplication</mainClass> <!-- ваш главный класс -->
+                        <mainClass>com.example.configserver.ConfigServerApplication</mainClass> 
                     </manifest>
                 </archive>
             </configuration>
